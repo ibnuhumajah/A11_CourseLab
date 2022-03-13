@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+/* font-weight
+400: regular
+500: medium
+600: semi bold
+700: bold */
+
+:root {
+  /* color */
+  --main-color: #077485;
+  --secondary-color: #4c9ba7;
+  --font-color: #0f0d12;
+  --accent-color: #4b494d;
+
+  /* body color */
+  --body-color: linear-gradient(
+    180deg,
+    rgba(145, 194, 201, 0.24) -49.72%,
+    rgba(145, 194, 201, 0) 100%
+  );
+  --body-secondary-color: #f9f9f9;
+
+  /* font */
+  --main-font: "Poppins", sans-serif;
+  --head-font: "Abhaya Libre", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: var(--body-secondary-color);
+}
+
+body h1 {
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
