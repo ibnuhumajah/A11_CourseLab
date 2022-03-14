@@ -1,7 +1,7 @@
 # A11_CourseLab
 Repository untuk project FGA Prograte Front-End bernama CourseLab
 
-Front-End Developer Team CourseLab:
+Front-End Developer Team CourseLab: a
 Fikri Zaelani - 149173029100-1282
 Firly Nadofa Sobri - 149173029100-528
 Ibnu Humajah - 149173029100-158
