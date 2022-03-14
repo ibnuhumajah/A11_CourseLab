@@ -12,6 +12,13 @@ body {
   background: var(--body-main-color);
 }
 
+/* hapus ini */
+h1 {
+  align-items: center;
+  font-size: 128px;
+}
+/* hapus sampai sini */
+
 /* mas firly style start */
 header {
   text-align: center;
@@ -122,3 +129,88 @@ header {
 }
 
 /* mas firly style end */
+
+/* ibnu style start */
+footer {
+  background: var(--body-secondary-color);
+  font-family: var(--main-font);
+  padding-top: 64px;
+  line-height: 140%;
+  position: relative;
+}
+
+footer .container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+footer .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company-col {
+  width: 40%;
+  padding: 0 24px;
+}
+
+.company-col p {
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--accent-color);
+  width: 55%;
+}
+
+.footer-col {
+  width: 15%;
+  padding: 0 12px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: var(--main-color);
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  color: var(--accent-color);
+  font-weight: 400;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.footer-col ul li a:hover {
+  padding-left: 4px;
+  color: var(--main-color);
+}
+
+.copyright {
+  width: 40%;
+  padding: 0 12px;
+  color: var(--accent-color);
+  padding: 72px 0 18px 12px;
+}
+
+footer .copyright-list {
+  width: 30%;
+  padding: 72px 0 18px 8px;
+}
+
+.copyright-list a {
+  text-decoration: none !important;
+  color: var(--accent-color);
+  transition: all 0.3s ease;
+}
+
+.copyright-list a:hover {
+  padding-left: 4px;
+  color: var(--main-color);
+}
+/* ibnu style end */
