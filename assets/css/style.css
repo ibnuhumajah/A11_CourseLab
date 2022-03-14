@@ -1,34 +1,4 @@
-<<<<<<< Updated upstream
-@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500;700&family=Poppins:wght@400;500;600;700&display=swap");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-/* font-weight
-400: regular
-500: medium
-600: semi bold
-700: bold */
-
-:root {
-  /* color */
-  --main-color: #077485;
-  --secondary-color: #4c9ba7;
-  --font-color: #0f0d12;
-  --accent-color: #4b494d;
-
-  /* body color */
-  --body-color: linear-gradient(
-    180deg,
-    rgba(145, 194, 201, 0.24) -49.72%,
-    rgba(145, 194, 201, 0) 100%
-  );
-  --body-secondary-color: #f9f9f9;
-
-  /* font */
-  --main-font: "Poppins", sans-serif;
-  --head-font: "Abhaya Libre", serif;
-}
-=======
 @import url("root.css");
->>>>>>> Stashed changes
 
 * {
   margin: 0;
@@ -58,91 +28,87 @@ header {
   top: -33px;
 }
 
-.nav{
-  float: left;  
+.nav {
+  float: left;
 }
 
-.nav.logo{
+.nav.logo {
   width: 20%;
 }
 
-.logo img{
+.logo img {
   padding-top: 68px;
   padding-bottom: 33px;
   cursor: pointer;
 }
 
-.nav.menu{
+.nav.menu {
   width: 60%;
   padding-top: 86px;
   padding-bottom: 50px;
-  font-weight: 500;  
+  font-weight: 500;
   line-height: 140%;
   line-height: 25px;
 }
 
-.nav.menu a{
+.nav.menu a {
   margin-right: 62px;
-  color: #4B494D;
+  color: #4b494d;
 }
 
-.nav.menu a:hover{
+.nav.menu a:hover {
   color: #077485;
 }
 
-.nav.menu a.active{
+.nav.menu a.active {
   color: #077485;
 }
 
-.dropdown{
+.dropdown {
   position: relative;
   display: inline-block;
 }
 
-.dropbtn{
+.dropbtn {
   padding: 16px;
   margin-right: 0px;
 }
 
-.dropdown-content{
+.dropdown-content {
   display: none;
   position: fixed;
   background-color: #e0ebed;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   font-size: 14px;
 }
 
-.dropdown-content a{
+.dropdown-content a {
   color: #90b5d3;
   padding: 4px 16px;
   display: block;
-  
 }
 
-.dropdown-content a.dr{
+.dropdown-content a.dr {
   margin-right: 0px;
 }
 
-
-.dropdown-content a:hover{
+.dropdown-content a:hover {
   background-color: #c1d2d4;
 }
 
-.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown-content {
   display: block;
 }
 
-
-
-.btn{
-  width: 20%; 
+.btn {
+  width: 20%;
   padding-top: 86px;
-  padding-bottom: 50px; 
+  padding-bottom: 50px;
 }
 
-.btn a{
+.btn a {
   color: rgb(255, 255, 255);
   font-weight: 500;
   font-style: normal;
@@ -153,6 +119,6 @@ header {
   border-radius: 1000px;
 }
 
-.btn a:hover{
+.btn a:hover {
   background-color: #0aa2b9;
 }
