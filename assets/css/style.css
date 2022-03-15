@@ -136,6 +136,10 @@ header {
 /* mas firly style end */
 
 /* Start Fikri Zaelani*/
+section .wrapper-guru{
+  max-width: 1400px;
+  margin: auto;
+}
 .wrapper-guru {
   padding: 54px 0 64px 0;
   font-family: var(--main-font);
