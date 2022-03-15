@@ -2,15 +2,49 @@
 
 /* tablet responsive */
 @media all and (max-width: 1000px) {
-}
-header{
-    font-size: 16px;
+    header{
+        font-size: 16px;
+    }
+
+    /*courses section responsive */
+    .our-courses_list-wrapper {
+        grid-template-columns: auto auto;
+      }
+  
+      .our-courses_text-contents h1 {
+          font-size: 30px;
+        }
+      
+      .heading h1 {
+          font-size: 36px;
+        }
+
+    /* courses section responsive end*/
 }
 
 /* phone responsive */
 
 @media screen and (max-width: 480px) {
+    header{
+        font-size: 14px;
+    }
+
+    /*courses section responsive*/
+    .heading p {
+        font-size: 18px;
+    }
+
+    .heading h1 {
+        font-size: 24px;
+      }
+    
+      .our-courses_list-wrapper {
+        grid-template-columns: auto;
+      }
+    
+    .our-courses_text-contents h1 {
+        font-size: 24px;
+      }
+    /*courses section responsive end*/
 }
-header{
-    font-size: 14px;
-}
+
