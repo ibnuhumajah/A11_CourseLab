@@ -1,152 +1,234 @@
 @import url("root.css");
 
 /* tablet responsive */
-@media all and (max-width: 1000px) {
-    header{
-        font-size: 14px;
-    }
+@media (max-width: 1281px) {
+  /* firly style start */
+  header {
+    font-size: 14px;
+  }
 
-    header .head-container{
-      max-width: 1000px;
-      height: 82px;
-    }
+  header .head-container {
+    max-width: 1000px;
+    height: 82px;
+  }
 
-    .dropdown-content{
-      font-size: 10px;
-    }
+  .dropdown-content {
+    font-size: 10px;
+  }
 
-    .logo img{
-      width: 72px;
-      height: 31px;
-    }
+  .logo img {
+    width: 72px;
+    height: 31px;
+  }
 
-    .nav.menu a {
-      margin-right: 16px;
-    }
-    .btn a{
-      padding: 4px 8px;
-      font-size: 10px;
-    }
-    
+  .nav.menu a {
+    margin-right: 16px;
+  }
+  .btn a {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
 
-    /*courses section responsive */
-    .our-courses_list-wrapper {
-        grid-template-columns: auto auto;
-      }
-  
-      .our-courses_text-contents h1 {
-          font-size: 30px;
-        }
-      
-      .heading h1 {
-          font-size: 36px;
-        }
+  /* firly style end  */
 
-    /* courses section responsive end*/
-    /* fikri start*/
-    .guru{
-      margin-left: 8%;
-    }
-    .guru img{
-      width: 245px;
-    }
-    .tentang {
-      font-size: 10px;
-    }
-    .mentor {
-      font-size: 14px;
-    }
-    /* fikri end */
+  /*courses section responsive */
+  .our-courses_list-wrapper {
+    grid-template-columns: auto auto;
+  }
+
+  .our-courses_text-contents h1 {
+    font-size: 30px;
+  }
+
+  .heading h1 {
+    font-size: 36px;
+  }
+
+  /* courses section responsive end*/
+
+  /* fikri start*/
+  .guru {
+    margin-left: 8%;
+  }
+  .guru img {
+    width: 245px;
+  }
+  .tentang {
+    font-size: 10px;
+  }
+  .mentor {
+    font-size: 14px;
+  }
+  /* fikri end */
+
+  /* ibnu style start */
+  footer {
+    padding-top: 24px;
+  }
+
+  footer .container {
+    max-width: 1281px;
+  }
+
+  .company-col {
+    width: 30%;
+  }
+
+  .company-col p {
+    margin-top: 18px;
+    width: 100%;
+  }
+
+  .footer-col {
+    width: 15%;
+  }
+
+  .footer-col ul li {
+    margin-bottom: 12px;
+  }
+
+  .copyright {
+    width: 40%;
+    padding: 18px;
+  }
+
+  footer .copyright-list {
+    width: 30%;
+    padding: 18px 0 18px 60px;
+  }
+  /* ibnu style end */
 }
 
 /* phone responsive */
 
-@media screen and (max-width: 480px)  {
-    header{
-        font-size: 12px;
-    }
+@media (max-width: 768px) {
+  /* firly style start */
+  header {
+    font-size: 12px;
+  }
 
-    header .head-container{
-      max-width: 460px;
-      height: 50px;
-    }
+  header .head-container {
+    max-width: 460px;
+    height: 50px;
+  }
 
-    /* header .head-row{
+  /* header .head-row{
       justify-content: end;
     } */
 
-    .nav.menu{
-      display: none;
-    }
+  .nav.menu {
+    display: none;
+  }
 
-    .btn{
-      width: 60%;
-      float: none;
-      text-align: end;
-    }
-    .btn a{
-      padding: 2px 4px;
-      font-size: 8px;
-    }
-    
+  .btn {
+    width: 60%;
+    float: none;
+    text-align: end;
+  }
+  .btn a {
+    padding: 2px 4px;
+    font-size: 8px;
+  }
 
-    .dropbtn {
-      background-color: rgba(0, 0, 0, 0);
-      transition: 0.35s ease-out;
-    }
+  .dropbtn {
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.35s ease-out;
+  }
 
-    .dropdown-content{
-      min-width: 20%;
-      font-size: 10px;
-    }
+  .dropdown-content {
+    min-width: 20%;
+    font-size: 10px;
+  }
 
-    .subdropdown-content{
-      font-size: 10px;
-    }
+  .subdropdown-content {
+    font-size: 10px;
+  }
 
-    .dropdown-content a{
-      padding: 1px 8px;
-    }
+  .dropdown-content a {
+    padding: 1px 8px;
+  }
 
-    .bars{
-      padding: 0 12px;
-      display: block;
-    }
-    
-    .bars .dropbtn{
-      border: none;
-      outline: none;
-      margin: 0;
-    } 
+  .bars {
+    padding: 0 12px;
+    display: block;
+  }
 
-    
+  .bars .dropbtn {
+    border: none;
+    outline: none;
+    margin: 0;
+  }
+  /* firly style end */
 
-    /*courses section responsive*/
-    .heading p {
-        font-size: 18px;
-    }
+  /*courses section responsive*/
+  .heading p {
+    font-size: 18px;
+  }
 
-    .heading h1 {
-        font-size: 24px;
-      }
-    
-      .our-courses_list-wrapper {
-        grid-template-columns: auto;
-      }
-    
-    .our-courses_text-contents h1 {
-        font-size: 24px;
-      }
-    /*courses section responsive end*/
+  .heading h1 {
+    font-size: 24px;
+  }
 
-    /*fikri start*/
-    .guru{
-      margin-left: 275px;
-    }
-    .guru img{
-      width: 360px;
-    }
-    /*fikri start*/
+  .our-courses_list-wrapper {
+    grid-template-columns: auto;
+  }
 
+  .our-courses_text-contents h1 {
+    font-size: 24px;
+  }
+  /*courses section responsive end*/
+
+  /*fikri start*/
+  .guru {
+    margin-left: 275px;
+  }
+  .guru img {
+    width: 360px;
+  }
+  /*fikri start*/
+
+  /* ibnu style start */
+  footer .container {
+    max-width: 768px;
+  }
+
+  footer img {
+    width: 148px;
+  }
+
+  .company-col {
+    width: 60%;
+    padding: 0 16px;
+    /* background: tomato; */
+  }
+
+  .company-col p {
+    margin-top: 18px;
+    width: 110%;
+  }
+
+  .footer-col {
+    width: 40%;
+    padding: 0 0 0 16px;
+  }
+
+  .footer-col h4 {
+    margin-bottom: 18px;
+    margin-top: 12px;
+  }
+
+  .footer-col ul li {
+    margin-bottom: 12px;
+  }
+
+  .copyright {
+    width: 100%;
+    padding: 24px 0 0 12px;
+  }
+
+  footer .copyright-list {
+    width: 50%;
+    padding: 8px 0 18px 12px;
+  }
+  /* ibnu style end */
 }
-
