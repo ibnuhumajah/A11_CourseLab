@@ -43,6 +43,20 @@
         }
 
     /* courses section responsive end*/
+    /* fikri start*/
+    .guru{
+      margin-left: 8%;
+    }
+    .guru img{
+      width: 245px;
+    }
+    .tentang {
+      font-size: 10px;
+    }
+    .mentor {
+      font-size: 14px;
+    }
+    /* fikri end */
 }
 
 /* phone responsive */
@@ -124,5 +138,15 @@
         font-size: 24px;
       }
     /*courses section responsive end*/
+
+    /*fikri start*/
+    .guru{
+      margin-left: 275px;
+    }
+    .guru img{
+      width: 360px;
+    }
+    /*fikri start*/
+
 }
 

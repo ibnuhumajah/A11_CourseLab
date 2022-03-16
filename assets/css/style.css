@@ -426,6 +426,7 @@ section .wrapper-guru{
 .guru img {
   width: 370px;
   height: 476px;
+  border-radius: 18px;
 }
 .about {
   justify-content: center;
@@ -454,7 +455,7 @@ section .wrapper-guru{
   flex: right;
   order: 0;
   flex-grow: 0;
-  margin: 4px 0px;
+  margin-top: 14px;
 }
 .tentang {
   color: var(--font-color);
