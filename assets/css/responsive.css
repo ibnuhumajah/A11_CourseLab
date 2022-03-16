@@ -31,6 +31,48 @@
 
   /* firly style end  */
 
+  /* main style start -ibnu  */
+  .main {
+    padding: 12px 0 12px 0;
+  }
+
+  .top-container {
+    display: inline-block;
+    width: 100%;
+    max-width: 1281px;
+    flex-direction: row-reverse;
+  }
+
+  .top-container .content-left {
+    text-align: center;
+    align-items: center;
+    padding-left: 0px;
+  }
+
+  .top-container .content-right {
+    padding-top: 24px;
+    text-align: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 92px;
+  }
+
+  .form-group {
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
+  .container-img .gambar {
+    top: 4px;
+    width: 50%;
+    align-items: center;
+    position: relative;
+  }
+  /* main style end -ibnu  */
+
   /*courses section responsive */
   .our-courses_list-wrapper {
     grid-template-columns: auto auto;
@@ -126,13 +168,17 @@
     text-align: end;
   }
   .btn a {
-    padding: 2px 4px;
-    font-size: 8px;
+    padding: 4px 8px;
+    font-size: 12px;
   }
 
   .dropbtn {
     background-color: rgba(0, 0, 0, 0);
     transition: 0.35s ease-out;
+  }
+
+  .dropbtn .fa-bars {
+    color: var(--main-color);
   }
 
   .dropdown-content {
@@ -159,6 +205,73 @@
     margin: 0;
   }
   /* firly style end */
+
+  /* main style start -ibnu  */
+  .main {
+    padding: 12px 0 12px 0;
+  }
+
+  .top-container {
+    display: inline-block;
+    width: 100%;
+    max-width: 1281px;
+    flex-direction: row-reverse;
+  }
+
+  .top-container .content-left {
+    text-align: center;
+    align-items: center;
+    padding-left: 0px;
+  }
+
+  .top-container .content-right {
+    padding-top: 24px;
+    text-align: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  .title-container {
+    font-size: 12px;
+    line-height: 140%;
+    margin-bottom: 24px;
+  }
+
+  .title-form {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .form-group {
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
+  .txtform {
+    font-size: 12px;
+    padding: 0 12px;
+    width: 172px;
+    height: 50px;
+  }
+
+  .submit {
+    font-size: 12px;
+    width: 92px;
+    height: 50px;
+    left: -4px;
+  }
+
+  .container-img .gambar {
+    top: 4px;
+    width: 90%;
+    align-items: center;
+    position: relative;
+  }
+  /* main style end -ibnu  */
 
   /*courses section responsive*/
   .heading p {
