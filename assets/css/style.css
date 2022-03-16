@@ -12,24 +12,37 @@ body {
   background: var(--body-main-color);
 }
 
-/* hapus ini */
-h1 {
-  align-items: center;
-  font-size: 128px;
-}
-/* hapus sampai sini */
+
 
 /* mas firly style start */
 header {
+  width: 100%;
   text-align: center;
   font-family: var(--main-font);
-  font-size: 18px;
+  font-size: 18px;  
+  position: -webkit-sticky;
+  position: fixed;
+  top: 0px;
+  z-index: 3;
+  clear: both;
+}
+
+div.head-container{
+  max-width: 1400px;
+  margin: auto;
   height: 163px;
   background-color: #e0ebed;
-  position: -webkit-sticky;
-  position: sticky;
-  top: -33px;
-  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+header .head-row {
+  display: flex;
+  flex-wrap: wrap;  
+  width: 100%;
+  align-items: center;
+  
 }
 
 .nav {
@@ -41,22 +54,21 @@ header {
 }
 
 .logo img {
-  padding-top: 68px;
-  padding-bottom: 33px;
+  width: 144px;
+  height: 62px;
   cursor: pointer;
 }
 
 .nav.menu {
   width: 60%;
-  padding-top: 86px;
-  padding-bottom: 50px;
+  display: block;
   font-weight: 500;
   line-height: 140%;
   line-height: 25px;
 }
 
 .nav.menu a {
-  margin-right: 62px;
+  margin-right: 50px;
   color: var(--accent-color);
 }
 
@@ -74,21 +86,33 @@ header {
 }
 
 .dropbtn {
-  padding: 16px;
-  margin-right: 0px;
+  /* padding: 6px; */
+  /* margin-right: 0px; */
+  transition: 0.35s ease-out;
+}
+
+.dropsub{
+  text-align: end;
+  transition: 0.35s ease-out;
 }
 
 .dropdown-content {
   display: none;
   position: fixed;
   background-color: var(--body-secondary-color);
-  min-width: 160px;
+  min-width: 160;
   box-shadow: 0px 8px 16px 0px var;
-  padding: 18px 0;
+  padding: 4px 0;
   z-index: 1;
   font-size: 14px;
   text-align: start;
   border-radius: 8px;
+  overflow: hidden;
+}
+
+.subdropdown-content{
+  display: none;
+  font-size: 10px;
 }
 
 .dropdown-content a {
@@ -97,8 +121,10 @@ header {
   display: block;
 }
 
+
+
 .dropdown-content a:not(last-child) {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .dropdown-content a.dr {
@@ -115,8 +141,6 @@ header {
 
 .btn {
   width: 20%;
-  padding-top: 86px;
-  padding-bottom: 50px;
 }
 
 .btn a {
@@ -132,6 +156,25 @@ header {
 
 .btn a:hover {
   background-color: var(--secondary-color);
+}
+
+.bars{
+  display: none;  
+}
+
+.bars:hover .dropdown-content
+{
+  display: block;
+  width: 20%;
+  text-align: end;
+  top: 32px;
+  position: fixed;
+  right: 0px;
+}
+
+.bars .subbtn:hover .subdropdown-content
+{
+  display: block;
 }
 
 /* mas firly style end */
